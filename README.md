@@ -11,7 +11,7 @@ Automated command for default message:
 
 git config alias.auto 'commit -a -m "Files Modified"'
 
-Shortcut config to update repository on Github:
+Using automated command to update repository on Github:
 
 git auto\
 git push
