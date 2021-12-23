@@ -1,4 +1,4 @@
-MERN App - Ecommerce Website for B.Tech 7th Semeseter Project
+MERN Stack App - Ecommerce Website for B.Tech 7th Semeseter Project
 
 <h1>Git Commands</h1>
 
