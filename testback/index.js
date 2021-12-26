@@ -44,3 +44,4 @@ app.get("/signup", (req, res) => {
 app.listen(port, () => {
     console.log("Server Running!")
 });
+console.log("Hello World");
