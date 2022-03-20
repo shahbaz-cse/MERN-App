@@ -1,13 +1,13 @@
 import React, {userState, useState} from "react";
 import Base from "../core/Base"
 import { Link, Redirect } from "react-router-dom";
-import {signin, authenticate, isAutheticated} from "../auth/helper";
+import {signin, authenticate, isAuthenticated} from "../auth/helper";
 
 const Signin = () => {
 
     const [values, setValues] = useState({
-        email: "",
-        password: "",
+        email: "shahbaz@gmail.com",
+        password: "12345",
         error: "",
         loading: false,
         didRedirect: false
@@ -15,7 +15,7 @@ const Signin = () => {
 
 const {email, password, error, loading, didRedirect} = values;
 
-const {user} = isAutheticated();
+const {user} = isAuthenticated();
 
     const handleChange = name => event => {
         setValues({ ...values, error: false, [name]: event.target.value });
@@ -40,15 +40,14 @@ const {user} = isAutheticated();
     };
 
     const performRedirect = () => {
-        // TODO: do a redirect here
         if(didRedirect){
             if(user && user.role ===1){
-                return <p>Redirect to Admin</p>;
+                return <Redirect to="/admin/dashboard"/>;
             } else {
-                return <p>Redirect to User Dashboard</p>;
+                return <Redirect to="/user/dashboard"/>;
             }
         }
-        if(isAutheticated()){
+        if(isAuthenticated()){
             return <Redirect to="/" />;
         }
     };
