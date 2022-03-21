@@ -10,11 +10,14 @@ const AdminDashBoard = () => {
 const adminLeftSide = () => {
   return (
     <div className='card'>
-      <h4 className='card-header bg-dark text-white'>Admin Navigation</h4>
+      <h5 className='card-header bg-dark text-white'>Admin Navigation</h5>
       <ul className='list-group'>
         <li className='list-group-item'>
           <Link to="/admin/create/category" className="nav-link text-success">Create Categories</Link>
         </li>
+        {/* <li className='list-group-item'>
+          <Link to="/admin/categories" className="nav-link text-success">Manage Categories</Link>
+        </li> */}
         <li className='list-group-item'>
           <Link to="/admin/create/product" className="nav-link text-success">Create Product</Link>
         </li>
@@ -35,13 +38,13 @@ const adminRightSide = () => {
       <h4 className='card-header'>Admin Information</h4>
       <ul className='list-group'>
         <li className='list-group-item'>
-          <span className='badge badge-success text-success mr-2'>Name:</span> {name}
+          <span className="badge badge-success text-success mr-2">Name:</span> {name}
         </li>
         <li className='list-group-item'>
           <span className='badge badge-success text-success mr-2'>Email:</span> {email}
         </li>
         <li className='list-group-item'>
-          <span className='badge badge-danger text-black mr-2'>Admin Area</span>
+          <span className='badge badge-danger text-danger mr-2'>Admin Area</span>
         </li>
       </ul>
     </div>

@@ -83,14 +83,14 @@ const {user} = isAuthenticated();
             <div className="col-md-6 offset-sm-3 text-left">
                 <form>
                     <div className="form-group">
-                        <label className="text-light">Email</label>
+                        <label className="text-light my-2">Email</label>
                         <input onChange={handleChange("email")} value={email} className="form-control" type="email"/>
                     </div>
                     <div className="form-group">
-                        <label className="text-light">Password</label>
+                        <label className="text-light my-2">Password</label>
                         <input onChange={handleChange("password")} value={password} className="form-control" type="password"/>
                     </div>
-                    <button onClick={onSubmit} className="btn btn-success btn-block" type="button">Submit</button>
+                    <button onClick={onSubmit} className="btn btn-success btn-block my-3" type="button">Submit</button>
                 </form>
             </div>
         </div>
