@@ -24,7 +24,7 @@ const StripeCheckout = ({products, setReload = f => f, reload =undefined}) => {
 
     return (
     <div>
-        <h3 className='text-white'>Total Amount to be paid: ${getFinalAmount()}</h3>
+        <h3 className='text-white'>Total Amount to be paid: <span className='text-danger'>${getFinalAmount()}</span></h3>
     </div>
   )
 }

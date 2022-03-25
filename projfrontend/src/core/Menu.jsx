@@ -27,14 +27,14 @@ const Menu = ({ history }) => (
             {isAuthenticated() && isAuthenticated().user.role === 0 && (
                 <li className="nav-item">
                 <Link style={currentTab(history, "/user/dashboard")} className='nav-link' to='/user/dashboard'>
-                    U.Dashboard
+                    User Dashboard
                 </Link>
             </li>
             )}
             {isAuthenticated() && isAuthenticated().user.role === 1 && (
                 <li className="nav-item">
                 <Link style={currentTab(history, "/admin/dashboard")} className='nav-link' to='/admin/dashboard'>
-                    A.Dashboard
+                    Admin Dashboard
                 </Link>
             </li>
             )}
@@ -54,13 +54,13 @@ const Menu = ({ history }) => (
             )}
             {isAuthenticated() && (
                <li className="nav-item">
-               <span className='nav-link text-warning' onClick={() => {
+               <Link className='nav-link text-warning' onClick={() => {
                    signout(() => {
                        history.push("/")
                    })
                }}>
                    Signout
-               </span>
+               </Link>
            </li>
             )}
         </ul>

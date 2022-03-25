@@ -91,7 +91,7 @@ const {user} = isAuthenticated();
                         <input onChange={handleChange("password")} value={password} className="form-control" type="password"/>
                     </div>
                     <div className="text-center">
-                    <button onClick={onSubmit} className="btn btn-success btn-block my-3" type="button">Submit</button>
+                    <button onClick={onSubmit} className="btn btn-success btn-block my-3" type="button">Sign In</button>
                     </div>
                     
                 </form>
@@ -101,13 +101,13 @@ const {user} = isAuthenticated();
     }
 
     return (
-        <Base title="Signin Page" description="A page for user to signin">
-        <h1>Signin works</h1>
+        <Base title="User Sign In" description="Sign In to Enjoy Shopping With Us!">
+        <h2 className="text-center py-4">Please Sign In To Our Website!</h2>
         {loadingMessage()}
         {errorMessage()}
         {signInForm()}
         {performRedirect()}
-        <p className="text-white text-center">{JSON.stringify(values)}</p>
+        {/* <p className="text-white text-center">{JSON.stringify(values)}</p> */}
         </Base>
     );
 };

@@ -54,7 +54,7 @@ const AddCategory = () => {
     const myCategoryForm = () => (
         <form>
             <div className='form-group'>
-                <p className='lead'>Enter the category</p>
+                <p className='lead'>Enter The Category Name</p>
                 <input
                 type="text"
                 className='form-control my-3'
@@ -62,24 +62,25 @@ const AddCategory = () => {
                 value={name}
                 autoFocus
                 required
-                placeholder='For example: Winter'
+                placeholder='For example: Winter Collection'
                 />
-                <button onClick={onSubmit} className='btn btn-outline-info'>Create Category</button>
+                <button onClick={onSubmit} className='btn btn-outline-info pd'>Create Category</button>
             </div>
         </form>
     );
 
   return (
     <Base
-        title='Create a category here'
-        description='Add a new category for new products'
-        className='container bg-info p-4'
+        title='Create A Category Here'
+        description='Create a new category for new products below'
+        className='container bg-success p-4'
     >
         <div className='row bg-white rounded'>
             <div className='col-md-8 offset-md-2'>
                 {successMessage()}
                 {warningMessage()}
                 {myCategoryForm()}
+                <br/>
                 {goBack()}
             </div>
         </div>

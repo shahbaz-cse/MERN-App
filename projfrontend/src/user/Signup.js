@@ -41,7 +41,7 @@ const Signup = () => {
 
   const signUpForm = () => {
     return (
-      <div className="row">
+      <div className="row py-4">
         <div className="col-md-6 offset-sm-3 text-left">
           <form>
             <div className="form-group">
@@ -73,7 +73,7 @@ const Signup = () => {
               />
             </div>
             <div className="text-center">
-            <button onClick={onSubmit} className="btn btn-success btn-block my-3">Submit</button>
+            <button onClick={onSubmit} className="btn btn-success btn-block my-3">Sign Up</button>
             </div>
           </form>
         </div>
@@ -89,7 +89,7 @@ const Signup = () => {
             className="alert alert-success"
             style={{ display: success ? "" : "none" }}
           >
-            New account was created successfully. Please{" "}
+            New Account Created Successfully! Please{" "}
             <Link to="/signin">Login Here</Link>
           </div>
         </div>
@@ -113,11 +113,11 @@ const Signup = () => {
   };
 
   return (
-    <Base title="Sign up page" description="A page for user to sign up!">
+    <Base title="User Sign Up" description="Please Sign Up To Create An Account!">
       {successMessage()}
       {errorMessage()}
       {signUpForm()}
-      <p className="text-white text-center">{JSON.stringify(values)}</p>
+      {/* <p className="text-white text-center">{JSON.stringify(values)}</p> */}
     </Base>
   );
 };

@@ -16,17 +16,22 @@ const Base = ({
             </div>
             <div className={className}>{children}</div>
         </div>
-        {/* <footer className="footer bg-dark mt-auto py-3">
-            <div className="container-fluid bg-success text-white text-center py-3">
-                <h4>If you got any questions, feel free to reach</h4>
-                <button className="btn btn-warning btn-lg">Contact Us</button>
+        <div class="clear"></div>
+        <div id="footer"></div>
+        <footer className="footer bg-dark mt-auto">
+            <div className="container-fluid bg-success text-white text-center py-1">
+                <h4>If you got any questions, feel free to reach us!</h4>
+                <button className="btn btn-warning btn-lg py-0">
+                <a href="https://www.linkedin.com/in/shahbazcse" class="btn">Contact Us</a>
+                </button>
             </div>
-            <div className="container">
+            <div className="container py-2">
                 <span className="text-muted">
-                    An Amazing <span className="text-white">MERN</span> Ecommerce Application
+                    <span className="text-white">E-COMMERCE WEBSITE - 7th Semester Project</span>
                 </span>
             </div>
-        </footer> */}
+        </footer>
     </div>
+    
 );
  export default Base;

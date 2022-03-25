@@ -32,10 +32,10 @@ export default function Home() {
     
 
     return (
-        <Base title='Home Page' description='Welcome to the E-commerce App'>
+        <Base title='E-commerce Website' description='Welcome to the store home page!'>
             <div className="row text-center">
-                <h1 className='text-white'>All of products</h1>
-                <div className='row'>
+                <h1 className='text-white py-2'>All Available Products</h1>
+                <div className='row '>
                     {products.map((product, index) => { 
                         return (
                             <div key={index} className="col-4 mb-4">

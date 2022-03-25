@@ -162,7 +162,7 @@ const AddProduct = () => {
             />
           </div>
           
-          <button type="submit" onClick={onSubmit} className="btn btn-outline-success mb-3">
+          <button type="submit" onClick={onSubmit} className="btn btn-outline-warning mb-3">
             Create Product
           </button>
         </form>

@@ -15,18 +15,18 @@ const adminLeftSide = () => {
         <li className='list-group-item'>
           <Link to="/admin/create/category" className="nav-link text-success">Create Categories</Link>
         </li>
-        {/* <li className='list-group-item'>
+        <li className='list-group-item'>
           <Link to="/admin/categories" className="nav-link text-success">Manage Categories</Link>
-        </li> */}
+        </li>
         <li className='list-group-item'>
           <Link to="/admin/create/product" className="nav-link text-success">Create Product</Link>
         </li>
         <li className='list-group-item'>
           <Link to="/admin/products" className="nav-link text-success">Manage Products</Link>
         </li>
-        <li className='list-group-item'>
+        {/* <li className='list-group-item'>
           <Link to="/admin/orders" className="nav-link text-success">Manage Orders</Link>
-        </li>
+        </li> */}
       </ul>  
     </div>
   )
@@ -35,7 +35,7 @@ const adminLeftSide = () => {
 const adminRightSide = () => {
   return (
     <div className='card mb-4'>
-      <h4 className='card-header'>Admin Information</h4>
+      <h4 className='card-header text-center'>Admin Information</h4>
       <ul className='list-group'>
         <li className='list-group-item'>
           <span className="badge badge-success text-success mr-2">Name:</span> {name}
@@ -43,8 +43,9 @@ const adminRightSide = () => {
         <li className='list-group-item'>
           <span className='badge badge-success text-success mr-2'>Email:</span> {email}
         </li>
-        <li className='list-group-item'>
-          <span className='badge badge-danger text-danger mr-2'>Admin Area</span>
+        <br/>
+        <li className='list-group-item text-center'>
+        <span className='badge badge-danger text-danger mr-2'>Admin Area</span>
         </li>
       </ul>
     </div>
