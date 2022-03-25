@@ -14,3 +14,5 @@
 501 - Not Implemented
 503 - Service Unavailable
 550 - Permission Denied
+
+For queries: Reach out to cseshahbaz@gmail.com
