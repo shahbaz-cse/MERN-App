@@ -90,7 +90,10 @@ const {user} = isAuthenticated();
                         <label className="text-light my-2">Password</label>
                         <input onChange={handleChange("password")} value={password} className="form-control" type="password"/>
                     </div>
+                    <div className="text-center">
                     <button onClick={onSubmit} className="btn btn-success btn-block my-3" type="button">Submit</button>
+                    </div>
+                    
                 </form>
             </div>
         </div>

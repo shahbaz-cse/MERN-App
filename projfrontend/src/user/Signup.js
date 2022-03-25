@@ -72,9 +72,9 @@ const Signup = () => {
                 value={password}
               />
             </div>
-            <button onClick={onSubmit} className="btn btn-success btn-block my-3">
-              Submit
-            </button>
+            <div className="text-center">
+            <button onClick={onSubmit} className="btn btn-success btn-block my-3">Submit</button>
+            </div>
           </form>
         </div>
       </div>
