@@ -92,3 +92,5 @@ MINIMUM:<br/>
 ● RAM: 4 GB RAM or above<br/>
 ● Hard Disk: 50GB or above<br/>
 ● Network: 20 Mbps or above<br/>
+
+<h4>Developed by: <a href="https://www.linkedin.com/in/shahbazcse/" target="_blank">Shahbaz Ahmad</a></h4>
