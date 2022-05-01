@@ -58,7 +58,7 @@ const Card = ({
         }
 
         return (
-          <div className="card text-white bg-dark border border-info ">
+          <div className="card text-white bg-dark border border-info" style={{ width: '15rem' }}>
             <div className="card-header lead">{cartTitle}</div>
             <div className="card-body">
                 {getARedirect(redirect)}
