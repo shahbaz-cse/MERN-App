@@ -24,37 +24,7 @@ MongoDB database.
 
 <h2>Application Screenshots</h2>
 
-<h3>Signin Page:</h3>
-<img src="/screenshots/Signin Page.png" width=auto title="Signin Page"><br/>
 
-<h3>Signup Page:</h3>
-<img src="/screenshots/Signup Page.png" width=auto title="Signup Page"><br/>
-
-<h3>Homepage:</h3>
-<img src="/screenshots/Home Page 1.png" width=auto title="Homepage">
-<img src="/screenshots/Home Page 2.png" width=auto title="Homepage">
-<img src="/screenshots/Home Page 3.png" width=auto title="Homepage"><br/>
-
-<h3>Cart Page:</h3>
-<img src="/screenshots/Cart Page.png" width=auto title="Cart Page"><br/>
-
-<h3>Admin Dashboard:</h3>
-<img src="/screenshots/Admin Dashboard.png" width=auto title="Admin Dashboard"><br/>
-
-<h3>Create Category:</h3>
-<img src="/screenshots/Create Category.png" width=auto title="Create Category"><br/>
-
-<h3>Manage Category:</h3>
-<img src="/screenshots/Manage Category.png" width=auto title="Manage Category"><br/>
-
-<h3>Create Product:</h3>
-<img src="/screenshots/Create Product.png" width=auto title="Create Product"><br/>
-
-<h3>Manage Products:</h3>
-<img src="/screenshots/Manage Products.png" width=auto title="Manage Products"><br/>
-
-<h3>Update Product:</h3>
-<img src="/screenshots/Update Product.png" width=auto title="Update Product"><br/>
 
 <h2>SOFTWARE REQUIREMENTS:</h2>
 <h3>Frontend:</h3>
