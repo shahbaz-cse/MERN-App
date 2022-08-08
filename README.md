@@ -1,4 +1,4 @@
-<h1 align="center">MERN Stack App - E-Commerce Application</h1>
+<h1 align="center">8IN WARDROBE</br><sub align="center">MERN Stack App | E-Commerce Application</sub></h1>
 <p>The purpose of this project is to make a web application that will be easier for customers to find interesting clothes and for sellers to sell their products. Admin can add some categories like summer and winter collections, etc. which will boost the sales by attracting customers. Whereas customers can browse through different products listed on the website. They can also buy them easily by just adding them to the cart. After adding they can check the total amount of the items which have been added to the cart.</p>
 
 <h3>Features:</h3>
