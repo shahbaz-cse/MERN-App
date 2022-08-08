@@ -32,7 +32,7 @@ export default function Home() {
     
 
     return (
-        <Base title='E-commerce Website' description='Welcome to the store home page!'>
+        <Base title='8IN WARDROBE' description='Welcome to the store home page!'>
             <div className="row text-center">
                 <h1 className='text-white py-2'>All Available Products</h1>
                 <div className='row '>

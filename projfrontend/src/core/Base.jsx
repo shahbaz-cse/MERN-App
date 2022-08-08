@@ -27,7 +27,7 @@ const Base = ({
             </div>
             <div className="container py-2">
                 <span className="text-muted">
-                    <span className="text-white">E-COMMERCE WEBSITE</span>
+                    <span className="text-white">8IN WARDROBE</span>
                     <br></br>
                     <span className="text-gray">Developed by <a href="https://www.linkedin.com/in/shahbazcse/">Shahbaz Ahmad</a></span>
                 </span>
